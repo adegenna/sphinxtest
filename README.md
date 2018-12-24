@@ -1,0 +1,3 @@
+This is just a test repo for testing syncing of sphinx docs with github
+
+Documentation is available at https://adegenna.github.io/sphinxtest/
