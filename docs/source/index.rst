@@ -9,9 +9,20 @@ Welcome to sphinxtest's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
    includeme
 
+sphinxtest module1
+=====================
+.. automodule:: src.module1
+   :members: funcA, funcB
 
+sphinxtest module2
+=====================
+.. automodule:: src.module2
+   :members: funcC,funcD
+
+	     
 Indices and tables
 ==================
 
