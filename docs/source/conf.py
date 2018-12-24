@@ -14,8 +14,10 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../../'))
-sys.path.insert(0, os.path.abspath('../../src/'))
+=======
+sys.path.insert(0, os.path.abspath('/home/adegennaro/Projects/sphinxtest/'))
+sys.path.insert(0, os.path.abspath('/home/adegennaro/Projects/sphinxtest/src'))
+
 
 
 # -- Project information -----------------------------------------------------
@@ -41,7 +43,7 @@ release = ''
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.doctest',
+=======
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
